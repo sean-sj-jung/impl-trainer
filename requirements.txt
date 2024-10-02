@@ -1,0 +1,11 @@
+accelerate==0.34.2
+datasets==2.21.0
+bitsandbytes==0.43.3
+huggingface-hub==0.24.5
+flash-attn==2.6.3
+openai==1.44.0
+peft==0.12.0
+pypdf==5.0.1
+torch==2.4.0
+transformers==4.44.2
+trl==0.10.1
