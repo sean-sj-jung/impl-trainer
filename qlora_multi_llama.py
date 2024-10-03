@@ -67,11 +67,10 @@ if __name__=="__main__":
                                                 )
     
     # Infer device map for your model and available devices
-    # device_map = infer_auto_device_map(model, max_memory={0: "24GiB", 1: "24GiB"})
+    device_map = infer_auto_device_map(model, max_memory={0: "24GiB", 1: "24GiB"})
     
     # Dispatch the model across the devices
-    # dispatch_model(model, device_map=device_map)
-    dispatch_model(model)#, device_map=device_map)    
+    dispatch_model(model, device_map=device_map)   
     print("DEVICE MAP:", device_map)
 
     # Prepare model and tokenizer for chat-based input formatting    
