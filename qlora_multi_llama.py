@@ -1,5 +1,5 @@
 from huggingface_hub import login
-login(token='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')
+login(token='hf_asfd')
 
 
 from transformers import (
