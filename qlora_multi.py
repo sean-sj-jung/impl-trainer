@@ -35,7 +35,7 @@ import traceback
 # Configuration
 model_path = "meta-llama/Llama-3.1-8B-Instruct"
 dataset_name = "jackhhao/jailbreak-classification"
-new_model = "raft_llama-3dot1-8b"
+new_model = "sft-llama-3dot1-8b"
 torch_dtype = torch.bfloat16
 save_path = "./finetuned_model/"
 

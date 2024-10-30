@@ -20,8 +20,8 @@ from trl import SFTTrainer, setup_chat_format
 
 # Configuration
 base_model = "microsoft/Phi-3.5-mini-instruct"
-dataset_name = "./dataset4raft.hf"
-new_model = "raft_phi-3dot5-mini"
+dataset_name = "./path/to/your/data"
+new_model = "test-sft-phi-3dot5-mini"
 torch_dtype = torch.bfloat16
 save_path = "./finetuned_model/"
 
