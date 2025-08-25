@@ -1,0 +1,10 @@
+[project]
+name = "mini-r1-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "tensorboard>=2.20.0",
+    "torch==2.5.1",
+]

@@ -1,1 +1,1 @@
-Codes for trying out huggingface trainers
+This repo is a compilation of codes I found for SFT or RL finetuning Hugging Face models.
